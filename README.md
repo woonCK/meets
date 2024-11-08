@@ -57,29 +57,19 @@
   
 
 ##  2) Stakings
-
-  
-
-| Staking | Payment Method| Quota|
-
-|--|--|--|
 Minimum staking is $100.
-
-  
-  
-
 >  ***Note**:*
 
->  -  *Current daily staking is **300 stakings (Adjustable)**.*  <br/>
-
->  -  *Ticket is **One-Time** usage, each ticket cost **$10**, which payable with **USDT Wallet Only**.*  <br/>
-
-  
-  
-
-
+>  -  *Only members are allowed to perform real staking, which deducts USDT. Admins do not have permission to add real staking for member.  
+>   -  *Only admins are allowed to perform free staking for member. Members cannot add free staking for themselves. 
 
   
+##  3) Nodes
+Each node costs $3000, and a member can only have one node, either a free one or a purchased one.
+>  ***Note**:*
+
+>  -  *When a member buys a node, they receive 3000 in free staking. Free nodes do not include the 3000 staking.
+>   -  *Once a user has a purchased or free node, they become eligible to collect the Nodes Investment bonus, calculated on the first day of each month. For example, if a user buys a node on November 8th, they qualify for the bonus when calculated on December 1st, as only 23 days have passed (less than the 30-day limit). This allows them to receive the bonus for all of December. If 30 days have passed, eligibility for the bonus depends on achieving a minimum of $5000 in small zone sales.
   
 
 ##  4) Withdrawal
@@ -101,28 +91,35 @@ Minimum staking is $100.
 
   
 
-##  6) Bonuses
+##  5) Bonuses
 
-  
+  ###  Reward in USDT (BCS Chain Only)
 
 ```mermaid
 
 graph LR
 
-A[Reward in USD] --> B[Deduct 5%]
-
-B --> C[Convert to Tubes based on rate]
-
-C --> D[Credit to Tubes Wallet]
+A[Reward in USD] --> D[Credit to Deposit Wallet]
 
 ```
 
 >  ***Note**:*
 
->  -  *Maximum cap for bonuses **(Excluded ROI, Reinvest ROI & Ticket Bonus)** is **x3.14** of self **Total Staked** in USD value. Specially **x4.13** for **TubesDAO** members.*  <br/>
+>  -  *Staking Direct Sponsor, Nodes Direct Sponsor, Staking Overriding and Nodes Overriding all reward in Usdt which credit to deposit wallet*
+>  
+###  Reward in Meets (BCS Chain Only)
+```mermaid
+graph LR
 
-  
-  
+A[Reward in Meets] --> B[Deduct 5%]
+
+B --> C[Credit to Meets Wallet]
+
+```
+
+>  ***Note**:*
+
+>  -  *Nodes Invest, Staking Invest and Staking Invest Overriding all reward in Meets which credit to Meets wallet*  <br/>
 
 ###  Ranking (V0-V10)
 
@@ -161,8 +158,9 @@ Only Small Zone Sales (Exclude Big Leg) is used to calculate ranking, thus minim
 >  ***Note**:*
 
 >  -  *User need to have minimum **staking of  $100** or buy **Nodes** to activate ranking.* <br/>
+>  -  *Small zone sales are calculated based on real staking and the 3000 free staking from node purchases only* 
 
-###  Direct Sponsor Ranking (D1-V3)
+###  Direct Sponsor Ranking (D1-D3)
 |Ranking| Referral Total |  Direct Sponsor Percentage |
 
 |--|--|--|
@@ -171,8 +169,7 @@ Only Small Zone Sales (Exclude Big Leg) is used to calculate ranking, thus minim
 
 | D2 | 3 | 1st Level: 2%, 2nd Level: 3% |
 
-| D3 | 5+ | 1st Level: 2%, 2nd Level: 3%, 3rd Level: 4% |
-
+| D3 | 5 | 1st Level: 2%, 2nd Level: 3%, 3rd Level: 4% |
 
 >  ***Note**:*
 
