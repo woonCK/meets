@@ -13,29 +13,7 @@
 |--|--|--|--|
 | BSC| USDT (0x55d398326f99059ff775485246999027b3197955) | USDT | Normal Transfer |
 
-  
-
-###  Beneficiary Addresses (ETH Chain Only)
-
-  
-
-|  | Address |
-|--|--|
-| 1 | 0x5AdcD542A6fE9A4FDefb8F94c34499BDe16c025D |
-| 2 | 0x181f47944C2dbA0e654C2C64Ebb95744F6d0a903 |
-| 3 | 0x291Eb3Dc9F037E79FcEDfFb150f3F9b2F9729974 |
-| 4 | 0x6193AD6457bFbEe04743891Cf079D1df9ED9EADc |
-| 5 | 0xDC97EEA1fC085A729c65Df0D86247d3ac189a4C2 |
-| 6 | 0xA28d92D6E58CD8F68Fc8f122A2ab147f96b7d404 |
-| 7 | 0x6521a22e4412450924294F8a46693Ef4c7832Bf8 |
-| 8 | 0xE120B29450b10098399fC0eF8f308F2723e8744e |
-| 9 | 0x3015361c888490933EC7e658825cD12b99626B4C |
-| 10 | 0x861553F94967360f742Cc7514dc94CE7c84b593e |
-  
-
 >  ***Note**:*
-
->  -  *For **ETH** chain deposit, user will direct to Deposit Page and execute deposit function, and token will directly transfer to client beneficiary wallet with round robin.*  <br/>
 
 >-  *For **TRON & BSC** chain deposit, every user will assign one unique Deposit Address, user may directly transfer token into self deposit address.*  <br/>
 
